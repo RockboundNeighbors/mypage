@@ -17,4 +17,6 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('/BJcounting', 'GambleController@BJcounting');
+
 Route::get('/home', 'HomeController@index')->name('home');
